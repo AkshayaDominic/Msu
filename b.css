@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4a7;
+}
+header {
+    background: #333;
+    color: rgb(180, 180, 218);
+    text-align: center;
+    padding: 1em;
+}
+nav {
+    background: #444;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+nav ul li {
+    margin: 0 15px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+nav ul li a:hover {
+    color:rgb(115, 115, 138);
+}
+.search-bar {
+    display: flex;
+    align-items: center;
+}
+.search-bar input {
+    padding: 5px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+.search-bar button {
+    padding: 5px 10px;
+    font-size: 16px;
+    background-color:rgb(161, 161, 176);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+.search-bar button:hover {
+    background-color: rgb(89, 89, 123);
+}
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+.gallery img {
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    transition: transform 0.3s;
+}
+.gallery img:hover {
+    transform: scale(1.1);
+}
